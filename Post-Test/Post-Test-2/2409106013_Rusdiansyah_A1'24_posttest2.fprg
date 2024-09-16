@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="2409106013_Rusdiansyah_A1'24_posttest2"/>
+        <attribute name="authors" value="Rusdiansyah"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-16 06:58:44 PM"/>
+        <attribute name="created" value="UnVzZGlhbnN5YWg7REVTS1RPUC1RUk9RQUZJOzIwMjQtMDktMTY7MDg6NDg6MDcgQU07MzU1Nw=="/>
+        <attribute name="edited" value="UnVzZGlhbnN5YWg7REVTS1RPUC1RUk9RQUZJOzIwMjQtMDktMTY7MDY6NTg6NDQgUE07MzszNjgy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="NamaLengkap, NamaPanggilan, Prodi, AsalDaerah" type="String" array="False" size=""/>
+            <declare name="NIM, Umur" type="Integer" array="False" size=""/>
+            <declare name="IPK" type="Real" array="False" size=""/>
+            <output expression="&quot;Masukkan Nama Lengkap&quot;" newline="True"/>
+            <input variable="NamaLengkap"/>
+            <output expression="&quot;Masukkan Nama Panggilan&quot;" newline="True"/>
+            <input variable="NamaPanggilan"/>
+            <output expression="&quot;Masukkan NIM&quot;" newline="True"/>
+            <input variable="NIM"/>
+            <output expression="&quot;Masukkan Prodi&quot;" newline="True"/>
+            <input variable="Prodi"/>
+            <output expression="&quot;Masukkan Umur&quot;" newline="True"/>
+            <input variable="Umur"/>
+            <output expression="&quot;Masukkan Asal Daerah&quot;" newline="True"/>
+            <input variable="AsalDaerah"/>
+            <output expression="&quot;Masukkan IPK&quot;" newline="True"/>
+            <input variable="IPK"/>
+            <declare name="modulusNIM" type="Integer" array="False" size=""/>
+            <assign variable="modulusNIM" expression="nim mod 1000"/>
+            <output expression="&quot;Perkenalkan nama saya &quot;&amp;NamaLengkap&amp;&quot; ,biasa dipanggil &quot;&amp;NamaPanggilan&amp;&quot; ,dan NIM saya &quot;&amp;NIM&amp;&quot; ,tiga NIM terakhir saya adalah &quot;&amp;modulusNIM&amp;&quot; .Program studi saya &quot;&amp;Prodi&amp;&quot; ,saya berusia &quot;&amp;Umur&amp;&quot; tahun dan saya berasal dari  &quot;&amp;Asaldaerah&amp;&quot; .Saya lulus dengan IPK &quot;&amp;IPK" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

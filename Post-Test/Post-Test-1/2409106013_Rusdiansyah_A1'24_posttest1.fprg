@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="punya rusdi"/>
+        <attribute name="authors" value="Rusdi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-09 05:50:06 PM"/>
+        <attribute name="created" value="UmFuZ2dhO0RFU0tUT1AtVjhUMjJKTDsyMDI0LTA5LTA4OzA3OjEzOjAzIFBNOzI5MzQ="/>
+        <attribute name="edited" value="UmFuZ2dhO0RFU0tUT1AtVjhUMjJKTDsyMDI0LTA5LTA5OzA1OjUwOjA2IFBNOzg7MzA1Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="hargatiketasli, i, hargatiket, totalharga" type="Integer" array="False" size=""/>
+            <assign variable="hargatiketasli" expression="60000"/>
+            <declare name="umur, diskon" type="Integer" array="True" size="3"/>
+            <output expression="&quot;Selamat Datang Di Wahana Pak Yanto Dengan Pembelian Tiket Secara Online, Dikarenakan Anda Memilih Opsi Harga Tiket Diskon Maka Dibutuhkan 3 Orang Dengan Umur Yang Berbeda-beda. Berikut 3 Jenis Diskon Yang Kami Sediakan Dan Opsi Ini Menolak Orang Yang Umurnya Sama&quot;" newline="True"/>
+            <output expression="&quot;- Berumur 18 tahun ke bawah maka akan diberi diskon 20%&quot;&amp;ToChar(13)&amp;&quot;- Berumur 18-25 tahun maka akan diberi diskon 15%&quot;&amp;ToChar(13)&amp;&quot;- Berumur 25 tahun ke atas maka akan diberi diskon 10%&quot;" newline="True"/>
+            <for variable="i" start="0" end="2" direction="inc" step="1">
+                <output expression="&quot;Masukkan Umur Orang ke &quot;&amp;i+1" newline="True"/>
+                <input variable="umur[i]"/>
+            </for>
+            <do expression="umur[0]=umur[1]">
+                <if expression="umur[0]=umur[1]">
+                    <then>
+                        <output expression="&quot;Dikarenakan Umur Orang Pertama Dan Kedua Sama, Masukkan Ulang Umur Orang Pertama Dan Kedua&quot;" newline="True"/>
+                        <for variable="i" start="0" end="1" direction="inc" step="1">
+                            <assign variable="umur[i]" expression="0"/>
+                            <output expression="&quot;Tolong Masukkan Umur Orang ke &quot;&amp;i+1" newline="True"/>
+                            <input variable="umur[i]"/>
+                        </for>
+                    </then>
+                    <else/>
+                </if>
+            </do>
+            <do expression="umur[1]=umur[2]">
+                <if expression="umur[1]=umur[2]">
+                    <then>
+                        <output expression="&quot;Dikarenakan Umur Orang Kedua Dan Ketiga Sama, Masukkan Ulang Umur Orang Ketiga&quot;" newline="True"/>
+                        <for variable="i" start="2" end="2" direction="inc" step="1">
+                            <assign variable="umur[i]" expression="0"/>
+                            <output expression="&quot;Tolong Masukkan Umur Orang ke &quot;&amp;i+1" newline="True"/>
+                            <input variable="umur[i]"/>
+                        </for>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="umur[0]=umur[2]">
+                    <then>
+                        <output expression="&quot;Dikarenakan Umur Orang Pertama Dan Ketiga Sama, Masukkan Ulang Umur Orang Ketiga&quot;" newline="True"/>
+                        <do expression="umur[0]=umur[2]">
+                            <for variable="i" start="2" end="2" direction="inc" step="1">
+                                <assign variable="umur[i]" expression="0"/>
+                                <output expression="&quot;Tolong Masukkan Umur Orang ke &quot;&amp;i+1" newline="True"/>
+                                <input variable="umur[i]"/>
+                            </for>
+                        </do>
+                    </then>
+                    <else/>
+                </if>
+            </do>
+            <for variable="i" start="0" end="2" direction="inc" step="1">
+                <if expression="umur[i] &lt; 18">
+                    <then>
+                        <assign variable="diskon[i]" expression="hargatiketasli-(hargatiketasli*0.20)"/>
+                    </then>
+                    <else>
+                        <if expression="umur[i] &lt; 25">
+                            <then>
+                                <assign variable="diskon[i]" expression="hargatiketasli-(hargatiketasli*0.15)"/>
+                            </then>
+                            <else>
+                                <assign variable="diskon[i]" expression="hargatiketasli-(hargatiketasli*0.10)"/>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+            </for>
+            <assign variable="totalharga" expression="diskon[0]+diskon[1]+diskon[2]"/>
+            <output expression="&quot;Harga tiket orang Pertama Adalah &quot;&amp;diskon[0]&amp;ToChar(13)&amp;&quot;Harga tiket orang Kedua Adalah &quot;&amp;diskon[1]&amp;ToChar(13)&amp;&quot;Harga tiket orang Ketiga Adalah &quot;&amp;diskon[2]" newline="True"/>
+            <output expression="&quot;Total Harga Tiket Dari 3 Pengunjung Yang Harus Dibayar Adalah &quot;&amp;totalharga" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

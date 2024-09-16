@@ -1,0 +1,16 @@
+nama_lengkap = input("Nama Lengkap :")
+nim = int(input("NIM :"))
+nama_panggilan = input("Nama Panggilan :")
+prodi = input("Prodi :")
+umur = input("Umur :")
+asal_daerah = input("Asal Daerah :")
+ipk = float(input("IPK :"))
+
+modulus_nim = int(str(nim)[-3:])
+
+print(f"Perkenalkan nama saya {nama_lengkap},")
+print(f"saya biasa dipanggil {nama_panggilan},dan NIM saya {nim}, ")
+print(f"tiga NIM terakhir saya adalah {modulus_nim}.")
+print(f"Program studi saya {prodi},")
+print(f"saya berusia {umur} tahun, dan saya berasal dari {asal_daerah}.")
+print(f"Saya lulus dengan IPK {ipk}.")
