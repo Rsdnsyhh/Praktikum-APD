@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="2409106013_Rusdiansyah_A1_24_posttest3"/>
+        <attribute name="authors" value="Rusdiansyah"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-24 09:52:54 AM"/>
+        <attribute name="created" value="UnVzZGlhbnN5YWg7REVTS1RPUC1RUk9RQUZJOzIwMjQtMDktMjE7MDI6NTE6NDMgUE07MzU1Ng=="/>
+        <attribute name="edited" value="UnVzZGlhbnN5YWg7REVTS1RPUC1RUk9RQUZJOzIwMjQtMDktMjQ7MDk6NTI6NTQgQU07NjszNjY3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="AktivitasHarian, Umur, JenisKelamin" type="Integer" array="False" size=""/>
+            <declare name="BeratBadan, TinggiBadan, BeratBadanKonversi, TinggiBadanKonversi, LevelAktivitasHarian, BMRPria, BMRWanita, BMRP, BMRW" type="Real" array="False" size=""/>
+            <output expression="&quot;SELAMAT DATANG DIKALKULATOR KEBUTUHAN KALORI HARIAN&quot;" newline="True"/>
+            <output expression="&quot;Masukkan jenis kelamin (Pilihan 1 Pria) dan (Pilihan 2 Wanita) &quot;" newline="True"/>
+            <input variable="JenisKelamin"/>
+            <output expression="&quot;Masukkan berat badan (dalam gram)&quot;" newline="True"/>
+            <input variable="BeratBadan"/>
+            <output expression="&quot;Masukkan tinggi badan (dalam KM)&quot;" newline="True"/>
+            <input variable="TinggiBadan"/>
+            <output expression="&quot;Masukkan umur&quot;" newline="True"/>
+            <input variable="Umur"/>
+            <assign variable="BeratBadanKonversi" expression="BeratBadan / 1000"/>
+            <assign variable="TinggiBadanKonversi" expression="TinggiBadan * 100000"/>
+            <output expression="&quot;Level aktivitas harian 1 (Manual), Level aktivitas harian 2 (Sedang), Level aktivitas harian 3 (Tinggi) &quot;" newline="True"/>
+            <input variable="AktivitasHarian"/>
+            <if expression="AktivitasHarian=1">
+                <then>
+                    <assign variable="LevelAktivitasHarian" expression="1.25"/>
+                </then>
+                <else>
+                    <if expression="AktivitasHarian=2">
+                        <then>
+                            <assign variable="LevelAktivitasHarian" expression="1.36"/>
+                        </then>
+                        <else>
+                            <assign variable="LevelAktivitasHarian" expression="1.72"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <assign variable="BMRPria" expression="(10 * BeratBadanKonversi) + (6.25 * TinggiBadanKonversi) - (5 * Umur) + 5"/>
+            <assign variable="BMRWanita" expression="(10 * BeratBadanKonversi) + (6.25 * TinggiBadanKonversi) - (5 * Umur) - 161"/>
+            <output expression="&quot;Pilih  rumus BMR yang ingin anda gunakan : (1) untuk BMR Pria, (2) untuk BMR Wanita&quot;" newline="True"/>
+            <input variable="JenisKelamin"/>
+            <if expression="JenisKelamin=1">
+                <then>
+                    <assign variable="BMRPria" expression="BMRPria * LevelAktivitasHarian"/>
+                    <output expression="&quot;Jumlah kalori yang diperlukan &quot; &amp; BMRPria" newline="True"/>
+                </then>
+                <else>
+                    <assign variable="BMRWanita" expression="BMRWanita * LevelAktivitasHarian"/>
+                    <output expression="&quot;Jumlah kalori yang diperlukan &quot; &amp; BMRWanita" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
