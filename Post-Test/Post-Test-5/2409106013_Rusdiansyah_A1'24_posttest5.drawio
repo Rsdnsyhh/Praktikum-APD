@@ -1,0 +1,125 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="2960" dy="1731" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="Ptyj8zKBL4CMMjv2bcZA-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PAwCO_-3gJ8ihFqSzkeo-5" target="Ptyj8zKBL4CMMjv2bcZA-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PAwCO_-3gJ8ihFqSzkeo-5" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;sketch=1;curveFitting=1;jiggle=2;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="224" y="105" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ptyj8zKBL4CMMjv2bcZA-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Ptyj8zKBL4CMMjv2bcZA-0" target="Ptyj8zKBL4CMMjv2bcZA-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ptyj8zKBL4CMMjv2bcZA-0" value="Input&lt;div&gt;Menu Pilihan&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;strokeWidth=2;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="199" y="189" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ptyj8zKBL4CMMjv2bcZA-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Ptyj8zKBL4CMMjv2bcZA-2" target="Ptyj8zKBL4CMMjv2bcZA-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ptyj8zKBL4CMMjv2bcZA-2" value="Pillih 1&lt;div&gt;Membuat Rekening&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;strokeWidth=2;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="207.5" y="280" width="103" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="Ptyj8zKBL4CMMjv2bcZA-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Ptyj8zKBL4CMMjv2bcZA-10" target="Ptyj8zKBL4CMMjv2bcZA-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ptyj8zKBL4CMMjv2bcZA-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Ptyj8zKBL4CMMjv2bcZA-10" target="Ptyj8zKBL4CMMjv2bcZA-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="448" y="637" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ptyj8zKBL4CMMjv2bcZA-10" value="Pilih 2&lt;div&gt;Cek Saldo&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;strokeWidth=2;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="213.5" y="507" width="91" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ptyj8zKBL4CMMjv2bcZA-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Ptyj8zKBL4CMMjv2bcZA-14" target="Ptyj8zKBL4CMMjv2bcZA-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ptyj8zKBL4CMMjv2bcZA-14" value="Output&lt;div&gt;Akun Telah Berhasil&lt;/div&gt;&lt;div&gt;Dibuat&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;strokeWidth=2;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="190.5" y="406" width="137" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="Ptyj8zKBL4CMMjv2bcZA-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Ptyj8zKBL4CMMjv2bcZA-22" target="Ptyj8zKBL4CMMjv2bcZA-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ptyj8zKBL4CMMjv2bcZA-22" value="Memeriksa Isi&lt;div&gt;Saldo Rekening&amp;nbsp;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;strokeWidth=2;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="198.99" y="623" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ptyj8zKBL4CMMjv2bcZA-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Ptyj8zKBL4CMMjv2bcZA-24" target="Ptyj8zKBL4CMMjv2bcZA-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ptyj8zKBL4CMMjv2bcZA-24" value="Pilih 3&lt;div&gt;Isi Saldo&lt;/div&gt;&lt;div&gt;Rekening&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;strokeWidth=2;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="197.75" y="720" width="112.75" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="Ptyj8zKBL4CMMjv2bcZA-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Ptyj8zKBL4CMMjv2bcZA-30" target="Ptyj8zKBL4CMMjv2bcZA-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ptyj8zKBL4CMMjv2bcZA-30" value="Saldo Telah&lt;div&gt;Berhasil Diisi sebanyak Rp.30.000&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;strokeWidth=2;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="176.19" y="854" width="155.88" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ptyj8zKBL4CMMjv2bcZA-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Ptyj8zKBL4CMMjv2bcZA-32" target="Ptyj8zKBL4CMMjv2bcZA-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ptyj8zKBL4CMMjv2bcZA-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Ptyj8zKBL4CMMjv2bcZA-32" target="Ptyj8zKBL4CMMjv2bcZA-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ptyj8zKBL4CMMjv2bcZA-32" value="Pilih 4&lt;div&gt;Tarik saldo&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;strokeWidth=2;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="210.37" y="952" width="87.5" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="Ptyj8zKBL4CMMjv2bcZA-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Ptyj8zKBL4CMMjv2bcZA-35" target="Ptyj8zKBL4CMMjv2bcZA-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ptyj8zKBL4CMMjv2bcZA-35" value="Saldo Berhasil di Tarik Sebanyak&amp;nbsp;&lt;div&gt;Rp.10.000&amp;nbsp;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;strokeWidth=2;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="49" y="964" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ptyj8zKBL4CMMjv2bcZA-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Ptyj8zKBL4CMMjv2bcZA-44" target="Ptyj8zKBL4CMMjv2bcZA-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ptyj8zKBL4CMMjv2bcZA-44" value="Saldo Anda tersisa&lt;div&gt;Rp.20.000&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;strokeWidth=2;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="455" y="644" width="147" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ptyj8zKBL4CMMjv2bcZA-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Ptyj8zKBL4CMMjv2bcZA-52" target="Ptyj8zKBL4CMMjv2bcZA-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="364" y="1115" />
+              <mxPoint x="364" y="994" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ptyj8zKBL4CMMjv2bcZA-52" value="Saldo Anda Tidak&lt;div&gt;Cukup&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;strokeWidth=2;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="194.12" y="1085" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ptyj8zKBL4CMMjv2bcZA-55" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="248.87" y="1032" width="49" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Ptyj8zKBL4CMMjv2bcZA-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Ptyj8zKBL4CMMjv2bcZA-57" target="Ptyj8zKBL4CMMjv2bcZA-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ptyj8zKBL4CMMjv2bcZA-57" value="Pilih 5&lt;div&gt;Hapus Akun&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;strokeWidth=2;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="479" y="780" width="99" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="Ptyj8zKBL4CMMjv2bcZA-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Ptyj8zKBL4CMMjv2bcZA-59" target="Ptyj8zKBL4CMMjv2bcZA-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ptyj8zKBL4CMMjv2bcZA-59" value="Akun Telah Berhasil Dihapus" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;strokeWidth=2;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="462" y="924" width="133" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="Ptyj8zKBL4CMMjv2bcZA-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Ptyj8zKBL4CMMjv2bcZA-63" target="Ptyj8zKBL4CMMjv2bcZA-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ptyj8zKBL4CMMjv2bcZA-63" value="Pilih 0&lt;div&gt;Exit&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;strokeWidth=2;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="488.5" y="1043" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ptyj8zKBL4CMMjv2bcZA-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Ptyj8zKBL4CMMjv2bcZA-65" target="Ptyj8zKBL4CMMjv2bcZA-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ptyj8zKBL4CMMjv2bcZA-65" value="Terimakasih&lt;div&gt;Telah Menggunakan&amp;nbsp;&lt;/div&gt;&lt;div&gt;Program Bank&lt;/div&gt;&lt;div&gt;Sederhana&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;strokeWidth=2;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="448" y="1169" width="161" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ptyj8zKBL4CMMjv2bcZA-67" value="END" style="ellipse;whiteSpace=wrap;html=1;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;strokeWidth=2;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="488.5" y="1312" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
